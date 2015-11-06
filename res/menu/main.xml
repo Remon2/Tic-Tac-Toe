@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/new_Game"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/newGame"/>
+    
+    <item
+        android:id="@+id/reset"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Reset Results"/>
+    
+    <item
+        android:id="@+id/menu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Menu"/>
+    
+    <item
+        android:id="@+id/options"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Options"/>
+
+</menu>

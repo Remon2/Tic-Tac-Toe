@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/play_grid"
+        android:layout_width="312dp"
+        android:layout_height="372dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/Black" >
+
+        <TableRow android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/one"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginRight="3dp"
+                android:background="@color/white"
+                android:textSize="100sp" />
+
+            <Button
+                android:id="@+id/two"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:background="@color/white"
+                android:textSize="100sp" />
+
+            <Button
+                android:id="@+id/three"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="3dp"
+                android:background="@color/white"
+                android:textSize="100sp" />
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/four"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:textSize="100sp" />
+
+            <Button
+                android:id="@+id/five"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:textSize="100sp" />
+
+            <Button
+                android:id="@+id/six"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:textSize="100sp" />
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/seven"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:textSize="100sp" />
+
+            <Button
+                android:id="@+id/eight"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:textSize="100sp" />
+
+            <Button
+                android:id="@+id/nine"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:textSize="100sp" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/information"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:text="Info"
+        android:textSize="20sp" />
+
+    <TableLayout
+        android:id="@+id/play_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/Black" >
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/xWins"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:gravity="center_horizontal"
+                android:text="X Wins : "
+                android:textColor="@color/Red"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/oWins"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:gravity="center_horizontal"
+                android:text="O Wins : 0"
+                android:textColor="@color/Red"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tie"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:gravity="center_horizontal"
+                android:text="Tie : 0"
+                android:textColor="@color/Red"
+                android:textSize="20sp" />
+        </TableRow>
+    </TableLayout>
+
+    <!-- <Button -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:id="@+id/gototmenu" -->
+    <!-- android:text="Go to Menu"/> -->
+
+</LinearLayout>
